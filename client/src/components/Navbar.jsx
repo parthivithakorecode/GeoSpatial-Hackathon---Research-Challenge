@@ -17,7 +17,7 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="w-32 cursor-pointer" />
       </div>
       <ul className="text-white text-4xl md:flex hidden list-none flex-row justify-between items-center flex-initial">
-        {["GEOSPATIAL HACKATHON RESEARCH CHALLENGE BY IIIT HYDERABAD"].map((item, index) => (
+        {['"STORE THE DATA PROJECT" for HACK IT SAPIENS Hackathon      '].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
         

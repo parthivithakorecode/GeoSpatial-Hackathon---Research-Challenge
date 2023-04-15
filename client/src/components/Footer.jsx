@@ -11,16 +11,16 @@ const Footer = () => (
       
     </div>
 
-    <div className="flex justify-center items-center flex-col mt-5">
+    {/* <div className="flex justify-center items-center flex-col mt-5">
       <p className="text-white text-sm text-center">For error handling contact</p>
-      <p className="text-white text-sm text-center font-medium mt-2">parthivithakorecloud@gmail.com</p>
-    </div>
+      <p className="text-white text-sm text-center font-medium mt-2">THE MAIL IS:</p>
+    </div> */}
 
     <div className="sm:w-[90%] w-full h-[0.25px] bg-gray-400 mt-5 " />
 
     <div className="sm:w-[90%] w-full flex justify-between items-center mt-3">
-      <p className="text-white text-left text-xs">Made by Parthivi Thakore</p>
-      <p className="text-white text-right text-xs">Geospatial Hackathon under Survery of India</p>
+      <p className="text-white text-left text-xs">Made by The Team Techno Sync</p>
+      <p className="text-white text-right text-xs">|| for Hack It Sapiens Hackathon ||</p>
     </div>
   </div>
 );

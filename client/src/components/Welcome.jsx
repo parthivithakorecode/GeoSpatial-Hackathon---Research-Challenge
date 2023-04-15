@@ -94,8 +94,10 @@ const Welcome = () => {
             </div>
           </div>
           <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
+          <Input placeholder="Address From" name="addressFrom" type="text" handleChange={handleChange} />
             <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
             <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
+            <Input placeholder="Name of Sender" name="keyword" type="text" handleChange={handleChange} />
             <Input placeholder="Name of Reciever" name="keyword" type="text" handleChange={handleChange} />
             <Input placeholder="Enter Geospatial Data" name="message" type="text" handleChange={handleChange} />
 
